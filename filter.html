@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Filter Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>    
+<body>
+
+   <header>
+    <h1>Filter Animal Records</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="analysis.html">Analysis</a>
+        <a href="filter.html">Filter</a>
+    </nav>
+   </header>   
+
+  <main>
+
+      <h2>Select Condition</h2>
+      <select id="condition">
+        <option>All</option>
+        <option>Healthy</option>
+        <option>Injured</option>
+        <option>Sick</option>
+        <option>Unknown</option>
+      </select> 
+
+      <button onclick="filterData()">Filter</button>
+
+      <div id="results" class="card-container"></div>
+
+  </main> 
+
+  <script src="script.js"></script>
+
+</body>
+</html>
