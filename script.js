@@ -47,8 +47,8 @@ function filterData() {
             results.innerHTML += `
                 <div class="card">
                     <h3>${animal.animal}</h3>
-                    <p><strong>Condition:</strong> ${animal.condition}</p>
-                    <p><strong>Location:</strong> ${animal.location}</p>
+                    <p>Condition: ${animal.condition}</p>
+                    <p>Location: ${animal.location}</p>
                 </div>
             `;
         }
