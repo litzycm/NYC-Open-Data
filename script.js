@@ -1,5 +1,5 @@
 
-const animals = [
+let animals = [
     {
         animal: "Squirrel",
         condition: "Healthy",
