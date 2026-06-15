@@ -1,5 +1,5 @@
 
-let animals = [
+const animals = [
     {
         animal: "Squirrel",
         condition: "Healthy",
@@ -26,10 +26,6 @@ let animals = [
         location: "Pelham Bay Park"
     }
 ];
-
-       
-        
-
 
 function filterData() {
 
@@ -59,9 +55,9 @@ function filterData() {
     });
 }
 
+filterData();
 
 
-}
 
 
 
